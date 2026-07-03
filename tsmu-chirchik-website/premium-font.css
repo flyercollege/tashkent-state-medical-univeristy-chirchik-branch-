@@ -1,0 +1,29 @@
+/* Premium font loading for the full site (no local font files required). */
+/* Uses Google Fonts. Safe to include on every page. */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root{
+  --premium-sans: "Inter Tight", "DM Sans", Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html{
+  font-family: var(--premium-sans);
+}
+
+body{
+  font-family: var(--premium-sans) !important;
+  font-feature-settings: "kern" 1, "liga" 1, "clig" 1;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Better premium typographic defaults */
+h1,h2,h3,h4{
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+p{
+  letter-spacing: 0.00em;
+}

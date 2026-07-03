@@ -1,0 +1,13 @@
+{
+  "name": "Tashkent State Medical University Chirchik Branch",
+  "short_name": "TSMU Chirchik",
+  "description": "Premium medical education, research, clinical training and international student support in Uzbekistan.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0B2E59",
+  "icons": [
+    {"src": "assets/favicon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "assets/favicon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
