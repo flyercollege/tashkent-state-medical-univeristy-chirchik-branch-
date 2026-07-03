@@ -1,0 +1,14 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/tsmu-chirchik-website/index.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/tsmu-chirchik-website/:path*"
+    }
+  ]
+}
