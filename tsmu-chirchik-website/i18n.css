@@ -1,0 +1,109 @@
+.tsmu-locale-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: max-content;
+  color: #fff;
+}
+
+.tsmu-locale-switcher__label {
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.tsmu-locale-switcher__select {
+  min-height: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  padding: 0 14px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-weight: 800;
+  appearance: none;
+  -webkit-appearance: none;
+  backdrop-filter: blur(12px);
+}
+
+.tsmu-locale-switcher__select option {
+  color: #101827;
+}
+
+html[dir="rtl"] body {
+  direction: rtl;
+}
+
+html[dir="rtl"] .tsmu-gh__inner,
+html[dir="rtl"] .tsmu-gh__brand,
+html[dir="rtl"] .tsmu-gh__nav,
+html[dir="rtl"] .tsmu-gh__actions,
+html[dir="rtl"] .nav-inner,
+html[dir="rtl"] .nav,
+html[dir="rtl"] .nav-actions,
+html[dir="rtl"] .btn-row,
+html[dir="rtl"] .hero-tags,
+html[dir="rtl"] .tags,
+html[dir="rtl"] .socials,
+html[dir="rtl"] .meta,
+html[dir="rtl"] .breadcrumb,
+html[dir="rtl"] .footer .container,
+html[dir="rtl"] .footer-bottom .container {
+  direction: rtl;
+}
+
+html[dir="rtl"] .section-head,
+html[dir="rtl"] .hero-grid,
+html[dir="rtl"] .about-layout,
+html[dir="rtl"] .international-layout,
+html[dir="rtl"] .contact-layout,
+html[dir="rtl"] .split,
+html[dir="rtl"] .clinical-layout,
+html[dir="rtl"] .clinical-contact-layout {
+  direction: rtl;
+}
+
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] p,
+html[dir="rtl"] li,
+html[dir="rtl"] label,
+html[dir="rtl"] input,
+html[dir="rtl"] select,
+html[dir="rtl"] textarea,
+html[dir="rtl"] summary,
+html[dir="rtl"] .breadcrumb,
+html[dir="rtl"] .hero-tags,
+html[dir="rtl"] .meta,
+html[dir="rtl"] .hours li,
+html[dir="rtl"] .office-meta a,
+html[dir="rtl"] .office-meta span {
+  text-align: right;
+}
+
+html[dir="rtl"] .tsmu-gh__mega {
+  left: auto;
+  right: 50%;
+  transform: translate(50%, 12px);
+}
+
+html[dir="rtl"] .tsmu-gh__item:hover .tsmu-gh__mega,
+html[dir="rtl"] .tsmu-gh__item.is-open .tsmu-gh__mega {
+  transform: translate(50%, 0);
+}
+
+html[dir="rtl"] .tsmu-gh__nav {
+  justify-content: flex-start;
+}
+
+html[dir="rtl"] .nav-links,
+html[dir="rtl"] .menu {
+  text-align: right;
+}
+
+@media (max-width: 1120px) {
+  .tsmu-locale-switcher__label {
+    display: none;
+  }
+}
